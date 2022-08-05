@@ -2,8 +2,8 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'cardocodes', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,84 +11,87 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'cardocodes',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    medium: 'cardocodes',
+    dev: '',
+    website: 'https://cardocodes.com/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'cardocodes@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'C++',
+    'TensorFlow',
+    'Java',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
-    'Bootstrap',
+    'React',
+    'Git',
+    'Linux',
+    'z/OS',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Visa',
+      position: 'Systems Programmer Intern',
+      from: 'May 2022',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'JPMC',
+      position: 'Software Engineer Intern',
+      from: 'Jan 2022',
+      to: 'May 2022',
+    },
+    {
+      company: 'ScholarWorks @ UTEP',
+      position: 'Research',
+      from: 'Aug 2021',
+      to: 'Dec 2021',
+    },
+    {
+      company: 'AI4ALL',
+      position: 'Research',
+      from: 'Aug 2021',
+      to: 'Dec 2021',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Texas at El Paso',
+      degree: 'Bachelor of Science in Computer Science',
+      from: '2019',
+      to: '2022',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      institution: 'University of Texas at Austin',
+      degree: 'Bachelors of Liberal Arts in Economics',
+      from: '2016',
+      to: '2018',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn',
+    source: '', // medium | dev
+    username: '',
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
+    id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
