@@ -7,9 +7,8 @@ import tailwindConfig from './tailwind.config.js';
 // https://vitejs.dev/config/
 export default defineConfig({
   // If you are deploying to https://<USERNAME>.github.io/, set base to '/'.
-  // Issues with git-portfolio as branch 
   // If you are deploying to https://<USERNAME>.github.io/<REPO>/, for example your repository is at https://github.com/<USERNAME>/<REPO>, then set base to '/<REPO>/'.
-  base: '/git-portfolio/',
+  base: '/git-portfolio/', //github domain address -> redirect to CardoCodes.com
   plugins: [react()],
   css: {
     postcss: {
